@@ -38,8 +38,8 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 	}
 
 	@Override
-	public List<Funcionario> obterFuncioanarioPorFaixaDeIdade(Integer de, Integer ate) {
-		return this.funcionarioRepository.obterFuncioanarioPorFaixaDeIdade(de, ate);
+	public List<Funcionario> obterFuncionarioPorFaixaDeIdade(Integer de, Integer ate) {
+		return this.funcionarioRepository.obterFuncionarioPorFaixaDeIdade(de, ate);
 	}
 
 	@Override

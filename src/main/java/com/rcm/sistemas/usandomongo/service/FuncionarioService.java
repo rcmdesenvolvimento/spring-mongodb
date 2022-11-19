@@ -12,7 +12,7 @@ public interface FuncionarioService {
 
 	public Funcionario criar(Funcionario funcionario);
 
-	public List<Funcionario> obterFuncioanarioPorFaixaDeIdade(Integer de, Integer ate);
+	public List<Funcionario> obterFuncionarioPorFaixaDeIdade(Integer de, Integer ate);
 	
 	List<Funcionario> findByNome(String nome);
 

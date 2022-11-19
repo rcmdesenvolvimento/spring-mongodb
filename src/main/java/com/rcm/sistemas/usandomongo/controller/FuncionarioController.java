@@ -32,10 +32,10 @@ public class FuncionarioController {
 	}
 
 	@GetMapping("/faixa")
-	public List<Funcionario> obterFuncioanarioPorFaixaDeIdade(
+	public List<Funcionario> obterFuncionarioPorFaixaDeIdade(
 			@RequestParam("de") Integer de,
 			@RequestParam("de") Integer ate) {
-		return this.funcionarioService.obterFuncioanarioPorFaixaDeIdade(de, ate);
+		return this.funcionarioService.obterFuncionarioPorFaixaDeIdade(de, ate);
 	}
 	
 

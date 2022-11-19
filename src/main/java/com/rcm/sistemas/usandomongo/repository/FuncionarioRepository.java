@@ -15,7 +15,7 @@ public interface FuncionarioRepository extends MongoRepository<Funcionario, Stri
 	// lte = less than equals
 
 	@Query("{ $and: [{'idade': {$gt: ?0} }, {'idade': {$lt: ?1} } ] }")
-	public List<Funcionario> obterFuncioanarioPorFaixaDeIdade(Integer de, Integer ate);
+	public List<Funcionario> obterFuncionarioPorFaixaDeIdade(Integer de, Integer ate);
 	
 	List<Funcionario> findByNome(String nome);
 
