@@ -54,3 +54,21 @@ public class FuncionarioController {
 // localhost:8080/funcionarios/63791782e5387c1723705e8d
 // localhost:8080/funcionarios/faixa?de=20&ate=30
 
+/*
+echo "# spring-mongodb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:rcmdesenvolvimento/spring-mongodb.git
+git push -u origin main
+**************************************************************************
+*
+*
+*git remote add origin git@github.com:rcmdesenvolvimento/spring-mongodb.git
+git branch -M main
+git push -u origin main
+*/
+
+
+

@@ -19,7 +19,8 @@ public class Funcionario {
 	
 	private String nome;
 	private Integer idade;
-	private BigDecimal salario;
+	private String bairro;
+	private BigDecimal salario; 
 	
 	@DBRef  // Referência de Collenction, dentro de outra
 	private Funcionario chefe;
